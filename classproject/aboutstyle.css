@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background:linear-gradient(315deg, #b3e3f4 35%, #d5e3f0 0.75%); */
+    background:linear-gradient(315deg, #4d55b1 35%, #d5e3f0 0.75%);
+}
+
+
+div.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 00%;
+   
+   width: 50px;
+   margin-top: 30px;
+   
+}
+div.card img{
+    border: #000000;
+    margin-top: 20px;
+    margin-bottom: 60PX;
+    margin-left: 320PX;
+    width: 260px;
+    box-shadow: 20px 10px 10px rgba(29, 29, 29, 0.699)
+    
+}
+
+
+
+.inner-container{
+    border: #000000;
+    width: 55%;
+    float: right;
+    margin-right: 30PX;
+    background:linear-gradient(315deg, #4d55b1 35%, #d5e3f0 0.75%);
+    /* background:linear-gradient(315deg, #74d1f3 35%, #d5e3f0 0.75%); */
+    border-color:  #000000;
+    
+    border-radius: 0em;
+    padding: 100px;
+    box-shadow: 0px 30px 10px rgba(31, 31, 31, 0.688)
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media screen and (max-width: 600px)
+ {
+    div.card img{
+        border: #000000;
+        margin-top: 0px;
+        margin-left: 370px;
+        margin-right: 20PX;
+        margin-bottom: 600px;
+        width: 210px;
+        box-shadow: 20px 10px 10px rgba(29, 29, 29, 0.699)
+        
+    }
+    .inner-container{
+        border: #000000;
+        width: 85%;
+        float: right;
+        margin-top: 200px;
+        margin-right: 40PX;
+        margin-left: 50px;
+
+        background:linear-gradient(315deg, #4d55b1 45%, #d5e3f0 0.75%);
+        /* background:linear-gradient(315deg, #74d1f3 35%, #d3d3d3 0.75%); */
+        border-color:  #000000;
+        margin-bottom: 20px;
+        border-radius: 0em;
+        padding: 40px 50px;
+        box-shadow: 0px 30px 10px rgba(31, 31, 31, 0.688)
+    }
+    
+    .inner-container h1{
+        margin-bottom: 20px;
+        margin-top: 00px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    
+    .text{
+        font-size: 10px;
+        color: #000000;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    
+    .skills{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    
+}
